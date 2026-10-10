@@ -1,4 +1,4 @@
-package org.apache.slider.war;
+//package org.apache.slider.war;
 
 //import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -8,8 +8,8 @@ import javax.ws.rs.Produces;
 /**
  * Root resource
  */
-@Path("/")
-public class RootResource {
+//@Path("/")
+//public class RootResource {
 
     /**
      * Method handling HTTP GET requests. The returned object will be sent
