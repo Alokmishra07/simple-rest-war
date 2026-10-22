@@ -1,3 +1,4 @@
+def regisry = "https://trialcyq09f.jfrog.io/"
 pipeline {
     agent any
     environment {
