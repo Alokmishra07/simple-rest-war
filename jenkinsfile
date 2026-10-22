@@ -29,7 +29,7 @@ pipeline {
             steps {
                 script {
                     echo '<--------------- War Publish Started --------------->'
-                    def server = Artifactory.newServer url: registry + "/artifactory", credentialsId: "Jfrog_cred"
+                    def server = Artifactory.newServer url: registry + "/artifactory", credentialsId: "Jfrog_Cred"
                     def properties = "buildid=${env.BUILD_ID},commitid=${GIT_COMMIT}"
                     def uploadSpec = """{
                         "files": [
